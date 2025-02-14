@@ -8,14 +8,19 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - CV .qmd
+      - CV.qmd
+      - Projects.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: quartz
+    mainfont: dotum
+    fontsize: 1.5rem
+    fontcolor: "#060606"
+    linkcolor: "#5080ee"
     css: styles.css
     toc: true
+    toc-location: right
 
 editor: visual
 
